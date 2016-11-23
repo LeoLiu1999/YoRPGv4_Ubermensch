@@ -12,7 +12,7 @@ public class YoRPG
     // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
 
     //change this constant to set number of encounters in a game
-    public final static int MAX_ENCOUNTERS = 5;
+    public static int MAX_ENCOUNTERS = 5;
 
     //each round, a Warrior and a Monster will be instantiated...
     private Character pat;   //Is it man or woman?
@@ -65,6 +65,14 @@ public class YoRPG
 
 	try {
 	    difficulty = Integer.parseInt( in.readLine() );
+	}
+	catch ( IOException e ) { }
+
+	s = "\nChoose your number of moves: \n";
+	System.out.print( s );
+
+	try {
+	    MAX_ENCOUNTERS = Integer.parseInt( in.readLine() );
 	}
 	catch ( IOException e ) { }
 
