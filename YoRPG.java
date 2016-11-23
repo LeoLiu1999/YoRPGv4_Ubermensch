@@ -75,13 +75,14 @@ public class YoRPG
 	    name = in.readLine();
 	}
 	catch ( IOException e ) { }
-	System.out.println(pat.about());
+
+	//System.out.println(pat.about());
 	s = "Select your player:\n";
 	s += "\t1: Warrior\n";
 	s += "\t2: Mage\n";
 	s += "\t3: Gunslinger\n";
 	s += "\t4: Tank\n";
-	s += "\t5: Rogue\n";
+	s += "\t5: Rouge\n";
 	s += "Selection: ";
 	System.out.print( s );
 
@@ -105,7 +106,7 @@ public class YoRPG
 	     pat = new Tank( name );
 	}
 	if (player == 5){
-	    pat = new Rogue( name );
+	    pat = new Rouge( name );
 	}
 	
     }//end newGame()
