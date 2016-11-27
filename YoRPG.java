@@ -68,7 +68,7 @@ public class YoRPG
 	}
 	catch ( IOException e ) { }
 
-	s = "\nChoose your number of moves: \n";
+	s = "\nChoose your number of moves (Pick a number): \n";
 	System.out.print( s );
 
 	try {
