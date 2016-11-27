@@ -145,15 +145,17 @@ public class YoRPG
 		// ...but if you get hit, you take more damage.
 		try {
 		    System.out.println( "\nDo you feel lucky?" );
-		    System.out.println( "\t1: Nay.\n\t2: Aye!" );
+		    System.out.println( "\t1: Nay.\n\t2: Aye!\n\t3:I'm dying (use health potion)" );
 		    i = Integer.parseInt( in.readLine() );
 		}
 		catch ( IOException e ) { }
 
 		if ( i == 2 )
 		    pat.specialize();
-		else
+		else if (i == 1)
 		    pat.normalize();
+		else if (i == 3)
+			pat.usePotion();
 
 		d1 = pat.attack( smaug );
 		d2 = smaug.attack( pat );
@@ -163,6 +165,11 @@ public class YoRPG
 
 		System.out.println( "\n" + "Ye Olde Monster smacked " + pat.getName() +
 				    " for " + d2 + " points of damage.");
+					
+		System.out.println("Thy health: " + pat.getHealth());
+		System.out.println("Thy potions: " + pat.getPotions());
+		System.out.println("Ye Olde Monster's health: " + smaug.getHealth());
+		
 	    }//end while
 
 	    //option 1: you & the monster perish

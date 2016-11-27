@@ -3,5 +3,7 @@ public class Gunslinger extends Character{
 	Name = name;
 	Health = 200;
 	Strength = ((int) (Math.random() * 45) + 70);
+	potionNumber = 5;
+	UsesPotion = false;
     }
 }

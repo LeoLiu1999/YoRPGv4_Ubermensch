@@ -5,6 +5,8 @@ public class Tank extends Character{
 	Strength = ((int) (Math.random() * 15) + 30);
 	Defense = 50;
 	Attack = .75;
+	potionNumber = 5;
+	UsesPotion = false;
     }
 
 }

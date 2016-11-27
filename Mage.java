@@ -6,6 +6,8 @@ public class Mage extends Character{
 	Strength = ((int) (Math.random() * 45) + 40);
 	Defense = 30;
 	Attack = 1.;
+	potionNumber = 5;
+	UsesPotion = false;
     }
 
  
