@@ -13,7 +13,7 @@ Additional Feature: Changes in progress.
     
     
 Code Restructuring:
-    Not much honestly. For now, additional features haven't required us to change the way our code previously worked.
+<br>    Not much honestly. For now, additional features haven't required us to change the way our code previously worked.
     
 How to Play:
-    DO THIS LATER
+<Br>    Start it by typing java YoRPG. When it gives choices, type the number, not the entire line, ortherwise it will return an error.
