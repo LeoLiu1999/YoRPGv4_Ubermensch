@@ -183,6 +183,10 @@ public class YoRPG
 	    //option 2: you slay the beast
 	    else if ( !smaug.isAlive() ) {
 		System.out.println( "HuzzaaH! Ye olde monster hath been slain!" );
+		double dropsPotion = Math.random();
+		if (dropsPotion < 0.2){
+			pat.findPotion();
+		}
 		return true;
 	    }
 	    //option 3: the beast slays you

@@ -15,6 +15,10 @@ public class Character{
 		return potionNumber;
 	}
 	
+	public void findPotion(){
+		potionNumber += 1;
+	}
+	
 	
 	public void usePotion(){
 		UsesPotion = true;
