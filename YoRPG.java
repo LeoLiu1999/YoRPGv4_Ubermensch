@@ -145,7 +145,7 @@ public class YoRPG
 		// ...but if you get hit, you take more damage.
 		try {
 		    System.out.println( "\nDo you feel lucky?" );
-		    System.out.println( "\t1: Nay.\n\t2: Aye!\n\t3:I'm dying (use health potion)" );
+		    System.out.println( "\t1: Nay.\n\t2: Aye!\n\t3:I'm dying (use health potion, restore 100 Health)" );
 		    i = Integer.parseInt( in.readLine() );
 		}
 		catch ( IOException e ) { }
