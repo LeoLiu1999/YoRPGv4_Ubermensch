@@ -9,6 +9,7 @@ Additional Feature: Changes in progress.
     <li>We gave each player 5 health potions and added an option to use one at every turn.</li>
     <li> It now shows the player's and monster's health and the number of health potions the player has left</li>
     <li> Players have a chance to get a health potion when they kill a monster.</li>
+    <li> Once you choose your Character Type, displays a short description of your choice </li>
     </ul>
     
     

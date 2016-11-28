@@ -116,6 +116,9 @@ public class YoRPG
 	if (player == 5){
 	    pat = new Rouge( name );
 	}
+
+	s = pat.about();
+	System.out.println(s);
 	
     }//end newGame()
 
