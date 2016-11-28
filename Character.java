@@ -1,4 +1,4 @@
-public class Character{
+public abstract class Character{
     protected int Health;
     protected int Strength;
     protected int Defense;
@@ -71,8 +71,6 @@ public class Character{
 	UsesPotion = false;
     }
 
-    public String about(){
-	return "";
-    }
+    public abstract String about();
 
 }

@@ -10,4 +10,8 @@ public class Rouge extends Character{
 	UsesPotion = false;
     }
 
+    public String about(){
+	return "They'll never see this coming!";
+    }
+
 }

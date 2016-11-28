@@ -6,7 +6,7 @@ public class Warrior extends Character {
         Strength = ((int) (Math.random() * 45) + 60);
     }
 
-    public boolean isAlive(){
-	return Health > 0;
+    public String about(){
+	return "Sword, armor, shield, what else can you ask for?";
     }
 }

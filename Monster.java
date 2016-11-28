@@ -9,5 +9,9 @@ public class Monster extends Character{
 	UsesPotion = false;
     }
 
+    public String about(){
+	return "";
+    }
+
 
 }

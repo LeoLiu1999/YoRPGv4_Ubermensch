@@ -9,6 +9,8 @@ public class Mage extends Character{
 	potionNumber = 5;
 	UsesPotion = false;
     }
-
  
+    public String about(){
+	return "Did someone say fireball?";
+    }
 }

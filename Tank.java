@@ -9,4 +9,8 @@ public class Tank extends Character{
 	UsesPotion = false;
     }
 
+    public String about(){
+	return "Yer good ol' lineman, ready to bash their faces in.";
+    }
+
 }

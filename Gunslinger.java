@@ -6,4 +6,8 @@ public class Gunslinger extends Character{
 	potionNumber = 5;
 	UsesPotion = false;
     }
+
+    public String about(){
+	return "Shoot 'em to bits!";
+    }
 }
