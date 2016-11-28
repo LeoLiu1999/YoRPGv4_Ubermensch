@@ -16,4 +16,6 @@ Code Restructuring:
 <br>    Not much honestly. For now, additional features haven't required us to change the way our code previously worked.
     
 How to Play:
+<br>Greetings, adventurer. The land is being attacked by the army of the evil dragon Shruiken. Battle monsters and defend the castle.
+<br>
 <Br>    Start it by typing java YoRPG. When it gives choices, type the number, not the entire line, ortherwise it will return an error.
